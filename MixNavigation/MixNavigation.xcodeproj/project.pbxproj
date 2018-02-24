@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF630D7A1F7CD2CC0090D742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF630D791F7CD2CC0090D742 /* AppDelegate.swift */; };
+		EF630D7C1F7CD2CC0090D742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF630D7B1F7CD2CC0090D742 /* ViewController.swift */; };
+		EF630D7F1F7CD2CC0090D742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF630D7D1F7CD2CC0090D742 /* Main.storyboard */; };
+		EF630D811F7CD2CC0090D742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF630D801F7CD2CC0090D742 /* Assets.xcassets */; };
+		EF630D841F7CD2CC0090D742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF630D821F7CD2CC0090D742 /* LaunchScreen.storyboard */; };
+		EF630D921F7CD4120090D742 /* hei.png in Resources */ = {isa = PBXBuildFile; fileRef = EF630D8C1F7CD4120090D742 /* hei.png */; };
+		EF630D931F7CD4120090D742 /* hei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF630D8D1F7CD4120090D742 /* hei@2x.png */; };
+		EF630D941F7CD4120090D742 /* Ji.png in Resources */ = {isa = PBXBuildFile; fileRef = EF630D8E1F7CD4120090D742 /* Ji.png */; };
+		EF630D951F7CD4120090D742 /* Ji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF630D8F1F7CD4120090D742 /* Ji@2x.png */; };
+		EF630D961F7CD4120090D742 /* Liao.png in Resources */ = {isa = PBXBuildFile; fileRef = EF630D901F7CD4120090D742 /* Liao.png */; };
+		EF630D971F7CD4120090D742 /* Liao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF630D911F7CD4120090D742 /* Liao@2x.png */; };
+		EF630D991F7CD4250090D742 /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF630D981F7CD4250090D742 /* provinces_cities.plist */; };
+		EF630DA11F7CD6AD0090D742 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF630DA01F7CD6AD0090D742 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF630D761F7CD2CC0090D742 /* MixNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF630D791F7CD2CC0090D742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF630D7B1F7CD2CC0090D742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF630D7E1F7CD2CC0090D742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF630D801F7CD2CC0090D742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF630D831F7CD2CC0090D742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF630D851F7CD2CC0090D742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF630D8C1F7CD4120090D742 /* hei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hei.png; sourceTree = "<group>"; };
+		EF630D8D1F7CD4120090D742 /* hei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hei@2x.png"; sourceTree = "<group>"; };
+		EF630D8E1F7CD4120090D742 /* Ji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ji.png; sourceTree = "<group>"; };
+		EF630D8F1F7CD4120090D742 /* Ji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ji@2x.png"; sourceTree = "<group>"; };
+		EF630D901F7CD4120090D742 /* Liao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liao.png; sourceTree = "<group>"; };
+		EF630D911F7CD4120090D742 /* Liao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liao@2x.png"; sourceTree = "<group>"; };
+		EF630D981F7CD4250090D742 /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces_cities.plist; sourceTree = "<group>"; };
+		EF630DA01F7CD6AD0090D742 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF630D731F7CD2CC0090D742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF630D6D1F7CD2CC0090D742 = {
+			isa = PBXGroup;
+			children = (
+				EF630D781F7CD2CC0090D742 /* MixNavigation */,
+				EF630D771F7CD2CC0090D742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF630D771F7CD2CC0090D742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF630D761F7CD2CC0090D742 /* MixNavigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF630D781F7CD2CC0090D742 /* MixNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				EF630D981F7CD4250090D742 /* provinces_cities.plist */,
+				EF630D8B1F7CD4120090D742 /* tabicons */,
+				EF630D791F7CD2CC0090D742 /* AppDelegate.swift */,
+				EF630D7B1F7CD2CC0090D742 /* ViewController.swift */,
+				EF630D7D1F7CD2CC0090D742 /* Main.storyboard */,
+				EF630D801F7CD2CC0090D742 /* Assets.xcassets */,
+				EF630D821F7CD2CC0090D742 /* LaunchScreen.storyboard */,
+				EF630D851F7CD2CC0090D742 /* Info.plist */,
+				EF630DA01F7CD6AD0090D742 /* DetailViewController.swift */,
+			);
+			path = MixNavigation;
+			sourceTree = "<group>";
+		};
+		EF630D8B1F7CD4120090D742 /* tabicons */ = {
+			isa = PBXGroup;
+			children = (
+				EF630D8C1F7CD4120090D742 /* hei.png */,
+				EF630D8D1F7CD4120090D742 /* hei@2x.png */,
+				EF630D8E1F7CD4120090D742 /* Ji.png */,
+				EF630D8F1F7CD4120090D742 /* Ji@2x.png */,
+				EF630D901F7CD4120090D742 /* Liao.png */,
+				EF630D911F7CD4120090D742 /* Liao@2x.png */,
+			);
+			path = tabicons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF630D751F7CD2CC0090D742 /* MixNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF630D881F7CD2CC0090D742 /* Build configuration list for PBXNativeTarget "MixNavigation" */;
+			buildPhases = (
+				EF630D721F7CD2CC0090D742 /* Sources */,
+				EF630D731F7CD2CC0090D742 /* Frameworks */,
+				EF630D741F7CD2CC0090D742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixNavigation;
+			productName = MixNavigation;
+			productReference = EF630D761F7CD2CC0090D742 /* MixNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF630D6E1F7CD2CC0090D742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huangxiquan;
+				TargetAttributes = {
+					EF630D751F7CD2CC0090D742 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF630D711F7CD2CC0090D742 /* Build configuration list for PBXProject "MixNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF630D6D1F7CD2CC0090D742;
+			productRefGroup = EF630D771F7CD2CC0090D742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF630D751F7CD2CC0090D742 /* MixNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF630D741F7CD2CC0090D742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF630D961F7CD4120090D742 /* Liao.png in Resources */,
+				EF630D951F7CD4120090D742 /* Ji@2x.png in Resources */,
+				EF630D941F7CD4120090D742 /* Ji.png in Resources */,
+				EF630D921F7CD4120090D742 /* hei.png in Resources */,
+				EF630D841F7CD2CC0090D742 /* LaunchScreen.storyboard in Resources */,
+				EF630D971F7CD4120090D742 /* Liao@2x.png in Resources */,
+				EF630D931F7CD4120090D742 /* hei@2x.png in Resources */,
+				EF630D811F7CD2CC0090D742 /* Assets.xcassets in Resources */,
+				EF630D7F1F7CD2CC0090D742 /* Main.storyboard in Resources */,
+				EF630D991F7CD4250090D742 /* provinces_cities.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF630D721F7CD2CC0090D742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF630D7C1F7CD2CC0090D742 /* ViewController.swift in Sources */,
+				EF630DA11F7CD6AD0090D742 /* DetailViewController.swift in Sources */,
+				EF630D7A1F7CD2CC0090D742 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF630D7D1F7CD2CC0090D742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF630D7E1F7CD2CC0090D742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF630D821F7CD2CC0090D742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF630D831F7CD2CC0090D742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF630D861F7CD2CC0090D742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF630D871F7CD2CC0090D742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF630D891F7CD2CC0090D742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MixNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangxiquan.MixNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF630D8A1F7CD2CC0090D742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MixNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangxiquan.MixNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF630D711F7CD2CC0090D742 /* Build configuration list for PBXProject "MixNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF630D861F7CD2CC0090D742 /* Debug */,
+				EF630D871F7CD2CC0090D742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF630D881F7CD2CC0090D742 /* Build configuration list for PBXNativeTarget "MixNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF630D891F7CD2CC0090D742 /* Debug */,
+				EF630D8A1F7CD2CC0090D742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF630D6E1F7CD2CC0090D742 /* Project object */;
+}
